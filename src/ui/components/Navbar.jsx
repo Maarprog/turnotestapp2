@@ -61,9 +61,11 @@ const Navbar = () => {
     <nav className="bg-gray-500">
       <div className="h-16 flex justify-between items-center">
         {/*Logo */}
-        <div className="text-white text-2xl font-bold px-4">
+        <div className="text-white text-2xl font-bold px-4 flex justify-center items-center">
             <img src={grafikdesigner} alt="" className="h-10" />
+            <label className='text-gray-100 text-10 px-4'>Mana Noah Web</label>
         </div>
+        
 
         {/*Buttons Options*/}
         <div className='hidden sm:block'>
